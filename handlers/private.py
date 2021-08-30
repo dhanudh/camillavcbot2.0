@@ -23,11 +23,11 @@ async def start(_, message: Message):
                         "Vc Assistant🥰", url="queenbotvc"
                     ),
                     InlineKeyboardButton(
-                        "Kriminal Boys👿", callback_data="Kriminal_boys"
+                        "Kriminal Boys👿", url="https://t.me/friends_nagaram/14067"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/camillamusicbot?startgroup=true"
+                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/stylishqueenbot?startgroup=true"
                     )]
             ]
         ),
@@ -46,18 +46,3 @@ async def gstart(_, message: Message):
             ]
         )
    )
-
-@run_async
-def Kriminal_boys(update: Update, context: CallbackContext):
-    query = update.callback_query
-    if query.data == "Kriminal_boys":
-        query.message.edit_text(
-            text="""[KRIMINAL SRI👿](t.me/kriminal_paiya)
-            [KRIMINAL KISHORE](t.me/kriminal_paiyan)
-            [KRIMINAL DHANUSH](t.me/boss_of_the_telegram)
-            [KRIMINAL SANTHOSH](t.me/naan_konjam_420)
-            [KRIMINAL MUKESH](t.me/immukesh_10)
-            [KRIMINAL SAI](t.me/attitudeking007)
-            [KRIMINAL MOULY](t.me/afrozmouly)
-            [KRIMINAL MUJA](t.me/muja46)
-            [KRIMINAL SAB](t.me/mr_sab_sj) """,
