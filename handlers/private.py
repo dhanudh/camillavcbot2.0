@@ -7,7 +7,6 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAItmWD3OC0m03OLIcpSzfiJMCDxm4xJAAKFAwACH8C5V-U9VextES_XIAQ")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ  ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. 
@@ -18,17 +17,17 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔨Source Code🔨", url="https://github.com/War-Legend/camillavcbot2.0")
+                        "Founder👿", url="https://t.me/KRIMINAL_PAIYA")
                   ],[
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/warbotzsupport"
+                        "Vc Assistant", url="https://t.me/queenbotvc"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/thewarbotz"
+                        "Kriminal boys👿", callback_data="Kriminal_boys"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/camillamusicbot?startgroup=true"
+                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/stylishqueenbot?startgroup=true"
                     )]
             ]
         ),
@@ -42,8 +41,25 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/thewarbotz")
+                        "Founder👿", url="https://t.me/kriminal_paiya")
                 ]
             ]
         )
    )
+        
+@run_async
+def Kriminal_boys(update: Update, context: CallbackContext):
+    query = update.callback_query
+    if query.data == "Kriminal_boys":
+        query.message.edit_text(
+            text="""[KRIMINAL SRI👿](t.me/kriminal_paiya)
+            [KRIMINAL KISHORE](t.me/kriminal_paiyan)
+            [KRIMINAL DHANUSH](t.me/boss_of_the_telegram)
+            [KRIMINAL SANTHOSH](t.me/naan_konjam_420)
+            [KRIMINAL MUKESH](t.me/immukesh_10)
+            [KRIMINAL SAI](t.me/attitudeking007)
+            [KRIMINAL MOULY](t.me/afrozmouly)
+            [KRIMINAL MUJA](t.me/muja46)
+            [KRIMINAL SAB](t.me/mr_sab_sj) """,
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
