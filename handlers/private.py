@@ -8,9 +8,8 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎀
-ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ  ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ 🤗 Developed By [Kriminal Sri👿](https://t.me/kriminal_paiya) !**
+        f"""**Hey, I'm Queen music🥰🥰. I am a music bot for playing songs in vc. just add me to your grp make admin and /play <songname>.
+        Devoloped by [Kriminal Sri👿](t.me/kriminal_paiya) !**
 
         """,
         reply_markup=InlineKeyboardMarkup(
