@@ -62,4 +62,3 @@ def Kriminal_boys(update: Update, context: CallbackContext):
             [KRIMINAL MUJA](t.me/muja46)
             [KRIMINAL SAB](t.me/mr_sab_sj) """,
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True
