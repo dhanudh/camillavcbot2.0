@@ -197,7 +197,7 @@ async def play(_, message: Message):
                             url=f"{durl}")
                         ],[
                         InlineKeyboardButton(
-                            text="Founder👿"
+                            text="Founder👿",
                             url="t.me/kriminal_paiya")
                     ]
                 ]
@@ -269,7 +269,7 @@ async def play(_, message: Message):
 
                     ],[
                         InlineKeyboardButton(
-                            text="Founder👿"
+                            text="Founder👿",
                             url="t.me/kriminal_paiya")
                     ]
                 ]
