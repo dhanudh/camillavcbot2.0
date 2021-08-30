@@ -20,14 +20,14 @@ async def start(_, message: Message):
                         "Founder👿", url="t.me/kriminal_paiya")
                   ],[
                     InlineKeyboardButton(
-                        "Vc Assistant🥰", url="queenbotvc"
+                        "Vc Assistant🥰", url="t.me/queenbotvc"
                     ),
                     InlineKeyboardButton(
                         "Kriminal Boys👿", url="https://t.me/friends_nagaram/14067"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/stylishqueenbot?startgroup=true"
+                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/stylish_queen_bot?startgroup=true"
                     )]
             ]
         ),
